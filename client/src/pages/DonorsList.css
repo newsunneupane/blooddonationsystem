@@ -1,0 +1,88 @@
+.donors-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.donors-container h1 {
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#bloodGroupFilter {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 20px 0;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+#bloodGroupFilter:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.donors-list {
+  margin-top: 30px;
+}
+
+.donor-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.donor-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.donor-card span {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 8px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.edit-btn {
+  background-color: #667eea;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #5568d3;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+.no-donors {
+  text-align: center;
+  color: #999;
+  padding: 40px 20px;
+  font-size: 1.1rem;
+}
