@@ -21,16 +21,16 @@ form {
   flex-direction: column;
   gap: 15px;
   margin-bottom: 30px;
-  background:  #3d56c9;
+  background:   rgb(150, 43, 43);
   padding: 20px;
   border:2px solid;
   border-radius: 8px;
-  border-color: red;
+  border-color: blueviolet
 }
 
 input, select {
   padding: 12px 15px;
-  border: 2px solid #ddd;
+  border: 2px solid #536b97;
   border-radius: 5px;
   font-size: 1rem;
   transition: border-color 0.3s;
@@ -49,7 +49,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-weight: 600;
-  transition: background-color 0.3s;
+  
   font-size: 1rem;
 }
 
